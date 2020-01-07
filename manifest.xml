@@ -2,7 +2,6 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>e27b3113-2783-4fb6-b7ee-cfccb2b70b3e</Id>
   <Version>1.0.0.0</Version>
-<<<<<<< HEAD
   <ProviderName>Balram Chavan</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="validate-sender"/>
@@ -10,15 +9,6 @@
   <IconUrl DefaultValue="https://validate-sender.surge.sh/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://validate-sender.surge.sh/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://github.com/ultrasonicsoft/outlook-safe-sender-add-in"/>
-=======
-  <ProviderName>Contoso</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="bi-safe-sender"/>
-  <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://addin-test.surge.sh/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://addin-test.surge.sh/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
->>>>>>> 5b174d15f07a16764aa4062ea1612745eaa1aa50
   <AppDomains>
     <AppDomain>contoso.com</AppDomain>
   </AppDomains>
@@ -33,11 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-<<<<<<< HEAD
         <SourceLocation DefaultValue="https://validate-sender.surge.sh/taskpane.html"/>
-=======
-        <SourceLocation DefaultValue="https://addin-test.surge.sh/taskpane.html"/>
->>>>>>> 5b174d15f07a16764aa4062ea1612745eaa1aa50
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -61,11 +47,7 @@
             <OfficeTab id="TabDefault">
               <Group id="msgReadGroup">
                 <Label resid="GroupLabel"/>
-<<<<<<< HEAD
                 <!-- <Control xsi:type="Button" id="msgReadOpenPaneButton">
-=======
-                <Control xsi:type="Button" id="msgReadOpenPaneButton">
->>>>>>> 5b174d15f07a16764aa4062ea1612745eaa1aa50
                   <Label resid="TaskpaneButton.Label"/>
                   <Supertip>
                     <Title resid="TaskpaneButton.Label"/>
@@ -79,11 +61,7 @@
                   <Action xsi:type="ShowTaskpane">
                     <SourceLocation resid="Taskpane.Url"/>
                   </Action>
-<<<<<<< HEAD
                 </Control> -->
-=======
-                </Control>
->>>>>>> 5b174d15f07a16764aa4062ea1612745eaa1aa50
                 <Control xsi:type="Button" id="ActionButton">
                   <Label resid="ActionButton.Label"/>
                   <Supertip>
@@ -107,7 +85,6 @@
     </Hosts>
     <Resources>
       <bt:Images>
-<<<<<<< HEAD
         <bt:Image id="Icon.16x16" DefaultValue="https://validate-sender.surge.sh/assets/icon-16.png"/>
         <bt:Image id="Icon.32x32" DefaultValue="https://validate-sender.surge.sh/assets/icon-32.png"/>
         <bt:Image id="Icon.80x80" DefaultValue="https://validate-sender.surge.sh/assets/icon-80.png"/>
@@ -124,24 +101,6 @@
       <bt:LongStrings>
         <!-- <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens a pane displaying all available properties."/> -->
         <bt:String id="ActionButton.Tooltip" DefaultValue="Check if sender is authenticated."/>
-=======
-        <bt:Image id="Icon.16x16" DefaultValue="https://addin-test.surge.sh/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://addin-test.surge.sh/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://addin-test.surge.sh/assets/icon-80.png"/>
-      </bt:Images>
-      <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://addin-test.surge.sh/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://addin-test.surge.sh/taskpane.html"/>
-      </bt:Urls>
-      <bt:ShortStrings>
-        <bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Taskpane"/>
-        <bt:String id="ActionButton.Label" DefaultValue="Perform an action"/>
-      </bt:ShortStrings>
-      <bt:LongStrings>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens a pane displaying all available properties."/>
-        <bt:String id="ActionButton.Tooltip" DefaultValue="Perform an action when clicked."/>
->>>>>>> 5b174d15f07a16764aa4062ea1612745eaa1aa50
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
